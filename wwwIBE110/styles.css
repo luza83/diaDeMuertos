@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(images/dia_de_los_muertos.jpg);
+    
+    
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    position: relative;
+   
+    
+}
+nav ul li a {
+    text-decoration: none;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: inline-end;
+    display: block;
+    padding: 16px;
+    list-style: none;
+    position: relative;
+    border: 1px black;
+    border-radius: 3px;
+    padding: 14px;
+    background: purple;
+}
+nav ul li {
+    display: inline-block;
+    width: 100px;
+  }
+  
+.about {
+    
+    float: right;
+}
+
+nav ul li a:hover{
+    background-color:white;
+    color: purple ;
+    border: 1px solid black;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+  
+
+
+  h1, h2{
+      text-align: center;
+  }
+  article{
+      text-align: justify;
+  }
+
+
+main{
+    background-color: black;
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 3px;
+    margin: 150px 0px 30px 0px;  
+    padding: 10%;
+    padding-top: 3%;
+    
+}
+
+#recipe_i {
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 5%;
+    padding-left: 10%;
+   
+   
+    
+}
+#recipe_i ul{
+    list-style: none;
+}
+
+#recipe_d{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 8%;
+   
+}
+
+.Ingredients h2{
+    background-clip: border-box;
+    background-color: purple;
+    background-origin: padding-box;
+    background-size: auto;
+    box-sizing: border-box;
+    color:wheat;
+    border: purple;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.directions h2{
+    background-clip: border-box;
+    background-color: purple;
+    background-origin: padding-box;
+    background-size: auto;
+    box-sizing: border-box;
+    color:wheat;
+    display: inline-block;
+    border: purple;
+    text-transform: uppercase;
+    
+   
+}
+
+footer{
+    color:slategrey;
+    font-size: 10px;
+    font-style: italic;
+}
+#banner {
+    background-image: url(images/dark.jpg);
+    background-size: cover;
+    background-position: bottom center;
+    width: 500px;
+    height: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+#banner .text h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:sandybrown;
+    text-align: right;
+    font-size: 35px;
+    position: relative;
+   
+  
+
+}
+.altar{
+    float: right;
+    
+}
+.intro{
+    float: left;
+    
+}
+.bread{
+    display: block;
+    position: relative;
+    float: right;
+    
+      
+     
+}
+
+.beliefs h2{
+    text-align: left;
+}
+
+.gif{
+    float: right;
+}
+
+.altars h2 {
+    text-align: left;
+}
+ 
+.facts{
+    border: 1px dotted purple;
+    color: purple;
+    line-height: 25px;
+    padding: 20px 80px;
+    margin: 30px 20px;
+    text-align: justify;
+
+}
+.about{
+    display: block;
+
+}
+
+.about_gif {
+    display: block;
+    position: relative;
+    margin: auto;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: bottom center;
+    padding-left: 350px;
+    padding-right: 400px;
+
+}
+.extras li{
+
+    border: 1px dotted purple;
+    color: purple;
+    line-height: 25px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: justify;
+    list-style: none;
+
+}
